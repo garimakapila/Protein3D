@@ -6,8 +6,6 @@ Nicholas Rego and David Koes
 Bioinformatics (2015) 31 (8): 1322-1324 doi:10.1093/bioinformatics/btu829
 */
 
-alert('This is only a temporary website that showcases my frontend + design skills. Backend is disconnected and data is not accurate.')
-
 
 /*
 key pressed on spacebar, play pause
