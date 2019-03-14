@@ -6,8 +6,6 @@ Nicholas Rego and David Koes
 Bioinformatics (2015) 31 (8): 1322-1324 doi:10.1093/bioinformatics/btu829
 */
 
-alert('This is only a temporary website that showcases my frontend + design skills. Backend is disconnected and data is not accurate.')
-
 $('#home').css('font-weight', '800');
 
 /*---------------------- Parse URL String ----------------------*/
@@ -113,6 +111,9 @@ search_input.on('keyup', function (e) {
 
 function search_clicked() {
 	animate_search_button();
+	
+alert('This is only a temporary website that showcases my frontend + design skills. Backend is disconnected and data is not accurate.')
+
 	query = search_input.val();
 	query_option = format(current_search_option.html());
 	new_url = window_url
