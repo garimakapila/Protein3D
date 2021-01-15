@@ -309,7 +309,7 @@ function seq_cells_mouseleave(sender) {
 
 function highlight() {
 	highlight_string = highlight_box.val();
-	alert(highlight_string)
+	console.log(highlight_string)
 	highlight_string = highlight_string.split(',');
 	for (var h in highlight_string) {
 		highlight = highlight_string[h];
@@ -556,7 +556,7 @@ function init_model_setup(model) {
 			model_3D_hoverable();
 		},
 		error: function(hdr, status, err) {
-			alert( "Failed to load PDB " + pdbUri + ": " + err );
+			console.log( "Failed to load PDB " + pdbUri + ": " + err );
 		},
 	});
 }
@@ -579,7 +579,7 @@ function set_model(sender) {
 			model_3D_hoverable();
 		},
 		error: function(hdr, status, err) {
-			alert( "Failed to load PDB " + pdbUri + ": " + err );
+			console.log( "Failed to load PDB " + pdbUri + ": " + err );
 		},
 	});
 	set_protein_1D();

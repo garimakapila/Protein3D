@@ -111,9 +111,6 @@ search_input.on('keyup', function (e) {
 
 function search_clicked() {
 	animate_search_button();
-	
-alert('This is only a temporary website that showcases my frontend + design skills. Backend is disconnected and data is not accurate.')
-
 	query = search_input.val();
 	query_option = format(current_search_option.html());
 	new_url = window_url
@@ -293,7 +290,7 @@ function search_results_html() {
 					$("#loading").hide();
 				},
 				error: function(hdr, status, err) {
-					alert(error);
+					console.log(error);
 				},
 			});
 		}
@@ -351,7 +348,7 @@ function change_pdb_style() {
 				$("#loading").hide();
 			},
 			error: function(hdr, status, err) {
-				alert(error);
+				console.log(error);
 			},
 		});
 		}
